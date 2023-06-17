@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * mai - A program that prtints the size of various computer types
- * Return 0 (Success)
+ * main - Entry point
+ *
+ * Description: using sizeof to prin the size of various types.
+ *
+ * Return: Always  0 (Success)
  */
 
 int main(void)
