@@ -4,7 +4,7 @@
  * main - writes _putchar to the stdout
  * Return: 0
  */
-int main(void)
+int prtputchar(void)
 {
 	char string[9]= "_putchar";
 	int i = 0;
