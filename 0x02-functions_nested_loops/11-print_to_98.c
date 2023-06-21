@@ -2,6 +2,7 @@
 
 /**
  * print_number - prints an integer
+ * @n: The int to be printed
  */
 void print_number(int n)
 {
@@ -49,6 +50,7 @@ void print_number(int n)
 void print_to_98(int n)
 {
 	int i;
+
 	if (n <= 98)
 	{
 		for (i = n; i < 98; i++)
@@ -58,7 +60,8 @@ void print_to_98(int n)
 			_putchar(' ');
 		}
 	}
-	else {
+	else
+	{
 		for (i = n; i > 98; i--)
 		{
 			print_number(i);
