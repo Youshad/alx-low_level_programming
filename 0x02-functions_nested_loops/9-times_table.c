@@ -12,16 +12,13 @@ void print_number(int n)
 
 	right_digit = n / 10;
 	left_digit = n % 10;
-	if (n != 0)
+	if (right_digit == 0)
 	{
-		if (right_digit == 0)
-		{
-			_putchar(' ');
-		}
-		else
-		{
-			_putchar('0' + right_digit);
-		}
+		_putchar(' ');
+	}
+	else
+	{
+		_putchar('0' + right_digit);
 	}
 	_putchar('0' + left_digit);
 }
@@ -42,7 +39,14 @@ void times_table(void)
 		while (number < 10)
 		{
 		mult = table * number;
-		print_number(mult);
+		if (number!= 0)
+		{
+			print_number(mult);
+		}
+		else
+		{
+			_putchar('0');
+		}
 		if (number != 9)
 		{
 			_putchar(',');
