@@ -22,6 +22,6 @@ void prtputchar(void)
 int main(void)
 {
 
-    prtputchar();
-    return (0);
+	prtputchar();
+	return (0);
 }
