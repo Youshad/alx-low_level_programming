@@ -2,7 +2,9 @@
 
 /**
  * ptrputchar - writes _putchar to the stdout
- * Return: 0
+ * Description: This function uses the _putchar function
+ * to print every char of _putchar by using a while loop.
+ * Return: void
  */
 void prtputchar(void)
 {
@@ -19,6 +21,11 @@ void prtputchar(void)
 	_putchar('\n');
 }
 
+/**
+ * main - The main function of the program.
+ * Description: calls the prtputchar func.
+ * Return : 0
+ */
 int main(void)
 {
 
