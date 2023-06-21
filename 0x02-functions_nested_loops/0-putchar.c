@@ -7,10 +7,10 @@
 void prtputchar(void)
 {
 
-	char string[9]= "_putchar";
-	
+	char string[9] = "_putchar";
+
 	int i = 0;
-	
+
 	while (string[i] != '\0')
 	{
 		_putchar(string[i]);
@@ -21,6 +21,7 @@ void prtputchar(void)
 
 int main(void)
 {
+
     prtputchar();
-    return 0;
+    return (0);
 }
