@@ -39,7 +39,7 @@ void times_table(void)
 		while (number < 10)
 		{
 		mult = table * number;
-		if (number!= 0)
+		if (number != 0)
 		{
 			print_number(mult);
 		}
