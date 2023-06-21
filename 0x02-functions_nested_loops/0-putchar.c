@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ptrputchar - Prints "_putchar"
+ * ptrputchar - Prints "_putchar" to the stdout
  */
 void prtputchar(void)
 {
@@ -21,7 +21,7 @@ void prtputchar(void)
 /**
  * main - The main function of the program.
  *
- * Return : 0
+ * Return : 0 if no errors were produced earlier
  */
 int main(void)
 {
