@@ -20,7 +20,8 @@ void print_hour(int hour, int minute)
 	_putchar(':');
 	right_digit = minute % 10;
 	left_digit = 0;
-	if (minute >= 10){
+	if (minute >= 10)
+	{
 		left_digit = minute / 10;
 	}
 	_putchar('0' + left_digit);
