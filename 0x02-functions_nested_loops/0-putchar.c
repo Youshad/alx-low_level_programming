@@ -6,9 +6,12 @@
  */
 void prtputchar(void)
 {
+
 	char string[9]= "_putchar";
+	
 	int i = 0;
-	while (string[i] != '\0')
+	
+	while (stringii[i] != '\0')
 	{
 		_putchar(string[i]);
 		i++;
