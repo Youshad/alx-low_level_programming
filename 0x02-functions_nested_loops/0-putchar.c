@@ -1,10 +1,10 @@
-#include "_putchar.h"
+#include "main.h"
 
 /**
- * main - writes _putchar to the stdout
+ * ptrputchar - writes _putchar to the stdout
  * Return: 0
  */
-int prtputchar(void)
+void prtputchar(void)
 {
 	char string[9]= "_putchar";
 	int i = 0;
@@ -14,6 +14,10 @@ int prtputchar(void)
 		i++;
 	}
 	_putchar('\n');
-	return 0;
 }
 
+int main(void)
+{
+    prtputchar();
+    return 0;
+}
