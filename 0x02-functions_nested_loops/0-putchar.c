@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * ptrputchar - writes _putchar to the stdout
- *
- * Return: void
+ * ptrputchar - Prints "_putchar"
  */
 void prtputchar(void)
 {
