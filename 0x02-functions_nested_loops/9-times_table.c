@@ -12,12 +12,16 @@ void print_number(int n)
 
 	right_digit = n / 10;
 	left_digit = n % 10;
-	if (right_digit == 0)
+	if (n != 0)
 	{
-		_putchar(' ');
-	}
-	else {
-		_putchar('0' + right_digit);
+		if (right_digit == 0)
+		{
+			_putchar(' ');
+		}
+		else
+		{
+			_putchar('0' + right_digit);
+		}
 	}
 	_putchar('0' + left_digit);
 }
